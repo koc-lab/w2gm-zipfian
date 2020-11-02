@@ -4,13 +4,13 @@ This repository is to observe Zipfian regularities existing in the Gaussian mixt
 
 ## Observing the Word Variances
 
-We split the Gaussian models into original and additional models. As an original model we utilized the model released original implementation [1]. To observe Zipfian regularities on the original multimodal implementation:
+We split the Gaussian models into original and additional models. As an original model we utilized the model released original implementation [1]. Model file can be downloaded [here](https://drive.google.com/file/d/1BlNxIp8yQ-vG4zxWo_kjrAN2om-1gW4a/view?usp=sharing). To observe Zipfian regularities on the original multimodal implementation:
 
 ```
 python analyze_word_variances_original.py --model_path original_models/w2gm-k2-d50
 ```
 At the end of the running, average variances of words will be displayed. In addition behaviors of the Swadesh and numbers words will be also demonstrated.
-For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please run:
+For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please find the model files [here](https://drive.google.com/file/d/1SfwRQDezxWZaIXAGRLdA_LUDtaP83Tic/view?usp=sharing) and run:
 
 ```
 python analyze_word_variances_additional.py --model_path additional_models/model_folder_name_to_be_used
