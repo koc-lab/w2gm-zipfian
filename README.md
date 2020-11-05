@@ -19,6 +19,14 @@ Again, at the end of the implementation, behavior of variances will be shown wit
 
 In order to train from scratch, one can utilize the implementation from [here.](https://github.com/benathi/word2gm)
 
+## Entailment
+
+For entailment task, we utilized the entailment repository from [2]. To run entailment task, plase download [word vectors](https://drive.google.com/file/d/19uKgj4Uc3HiG2GFfNpsxjRYZi1nNLQix/view?usp=sharing) and place them into entailment folder, then run:
+
+```
+python entailment.py --data bless_2011_data.tsv --vectors word2vec.txt --vocab vocab.txt
+```
+
 ## Requirements for Evaluation
 * tensorflow (We used tensorflow 1.15, but tensowflow 1.0 and above would be compatible.)
 * numpy
