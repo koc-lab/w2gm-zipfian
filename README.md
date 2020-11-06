@@ -10,7 +10,7 @@ We split the Gaussian models into original and additional models. As an original
 python analyze_word_variances_original.py --model_path original_models/w2gm-k2-d50
 ```
 At the end of the running, average variances of words will be displayed. In addition behaviors of the Swadesh and numbers words will be also demonstrated.
-For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please find the model files [here](https://drive.google.com/file/d/1SfwRQDezxWZaIXAGRLdA_LUDtaP83Tic/view?usp=sharing) and run:
+For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please find the model files [here](https://drive.google.com/file/d/1d0HiEJWXCKwu5tv_hbVq-hnocMzPzBY2/view?usp=sharing) and run:
 
 ```
 python analyze_word_variances_additional.py --model_path additional_models/model_folder_name_to_be_used
@@ -36,3 +36,5 @@ python entailment.py --data bless_2011_data.tsv --vectors word2vec.txt --vocab v
 ## References
 
 [1] Athiwaratkun, B., & Wilson, A. (2017). Multimodal  word  distributions. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long  Papers)(pp. 1645–1656).
+
+[2] Brazinskas, A., Havrylov, S., & Titov, I. (2018). Embedding words as distributions with a Bayesian skip-gram model. In Proceedings of the 27th International Conference on Computational Linguistics (pp. 1775{1789). Santa Fe, New Mexico, USA: Association for Computational Linguistics.
