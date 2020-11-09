@@ -10,7 +10,7 @@ We split the Gaussian models into original and additional models. As an original
 python analyze_word_variances_original.py --model_path original_models/w2gm-k2-d50
 ```
 At the end of the running, average variances of words will be displayed. In addition behaviors of the Swadesh and numbers words will be also demonstrated.
-For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please find the model files [here](https://drive.google.com/file/d/1d0HiEJWXCKwu5tv_hbVq-hnocMzPzBY2/view?usp=sharing) and run:
+For addtional experiments (e.g. experiment results on sense controlled corpus or different language corpus), please find the model files [here](https://drive.google.com/file/d/1kPWPyFwIXSc8KEcrUYYhWBvrBpDu3nkO/view?usp=sharing) and run:
 
 ```
 python analyze_word_variances_additional.py --model_path additional_models/model_folder_name_to_be_used
