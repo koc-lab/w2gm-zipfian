@@ -17,19 +17,6 @@ python analyze_word_variances_additional.py --model_path additional_models/model
 ```
 Again, at the end of the implementation, behavior of variances will be shown with correlation results. 
 
-In order to train from scratch, one can utilize the implementation from [here](https://github.com/benathi/word2gm) or you can run word2gm_trainer.py 
-
-```
-python word2gm_trainer.py --num_mixtures 2 --train_data your_data_file.txt --spherical --embedding_size 50 --epochs_to_train 5 --var_scale 0.05 --save_path your_save_path --learning_rate 0.05  --subsample 1e-5 --wout --adagrad --min_count 100 --batch_size 128 --max_to_keep 5 --checkpoint_interval 1000 --window_size 10
-```
-If necessary you can re-build word2vec_ops.so file by
-
-
-```
-chmod +x compile_skipgram_ops.sh
-./compile_skipgram_ops.sh
-```
-
 We also added lesk-corpus algorithm. It will easily run when the proper environment is provided.
 
 ## Entailment
