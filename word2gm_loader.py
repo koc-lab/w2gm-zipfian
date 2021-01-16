@@ -1,3 +1,6 @@
+Copyright (c) 2017, Ben Athiwaratkun and Andrew Gordon Wilson
+All rights reserved.
+
 import tensorflow as tf
 import numpy as np
 from matplotlib import pyplot as plt
