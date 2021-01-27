@@ -33,6 +33,25 @@ python entailment.py --data bless_2011_data.tsv --vectors word2vec.txt --vocab v
 * scipy
 * matplotlib
 
+## Citation
+
+If you make use of these tools, please cite following paper.
+
+```
+@article{SAHINUC2021102493,
+  title = "Zipfian regularities in “non-point” word representations",
+  journal = "Information Processing & Management",
+  volume = "58",
+  number = "3",
+  pages = "102493",
+  year = "2021",
+  issn = "0306-4573",
+  doi = "https://doi.org/10.1016/j.ipm.2021.102493",
+  url = "http://www.sciencedirect.com/science/article/pii/S0306457321000042",
+  author = "Furkan Şahinuç and Aykut Koç",
+}
+```
+
 ## References
 
 [1] Athiwaratkun, B., & Wilson, A. (2017). Multimodal  word  distributions. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long  Papers)(pp. 1645–1656).
